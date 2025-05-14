@@ -1,0 +1,49 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs and debugging
+*.log
+debug_*.txt
+calories_log.txt
+
+# Output files - exclude all data files and plot images that might contain personal data
+examples/output/*.csv
+examples/output/*.png
+examples/output/heart_rate_data*.csv
+examples/output/calories_data*.csv
+examples/output/daily_heart_rate*.csv
+examples/output/daily_calories*.csv
+examples/output/hourly_calories*.csv
+examples/output/heart_rate_trend.png
+examples/output/daily_calories.png
+examples/output/hourly_calories.png
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
