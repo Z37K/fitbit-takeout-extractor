@@ -20,7 +20,7 @@ A Python package for extracting and analyzing Fitbit data from Google Takeout ex
 ```bash
 # Clone the repository
 git clone https://github.com/Z37K/fitbit-takeout-extractor.git
-cd google-takeout-fitbit-extractor
+cd fitbit-takeout-extractor
 
 # Install the package
 pip install -e .
